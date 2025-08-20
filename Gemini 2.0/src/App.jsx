@@ -1,8 +1,11 @@
 import React from 'react'
+import Sidebarjsx from './components/sidebar/Sidebarjsx'
 
 const App = () => {
   return (
-    <div></div>
+    <>
+      <Sidebarjsx/>
+    </>
   )
 }
 
