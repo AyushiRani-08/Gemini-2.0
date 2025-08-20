@@ -12,6 +12,7 @@ async function main(prompt) {
 
   // Print the text
   console.log(result.response.text());
+  return(result.response.text());
 }
 
 
